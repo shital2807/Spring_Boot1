@@ -4,7 +4,7 @@ package in.shital;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main() {
-           // System.out.println("Hello");
+        System.out.println("Hello");
         order or =new order();
         or.Order();
         }
