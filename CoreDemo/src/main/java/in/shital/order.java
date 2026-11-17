@@ -6,9 +6,13 @@ import in.shital.Notification.SmsService;
 
 public class order {
 
-    Notification n =new SmsService();
-      void Order(){
-        System.out.println("Order");
-        n.SendNotification();
+    Notification n;
+      public order( Notification n) {
+          this.n=n;
+      }
+        void OrderPlace(){
+          System.out.println("Order is been placed");
+          n.SendNotification();
+        }
     }
-}
+
