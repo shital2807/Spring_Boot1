@@ -5,14 +5,14 @@ import in.shital.Notification.Notification;
 import in.shital.Notification.SmsService;
 
 public class order {
-
     Notification n;
-      public order( Notification n) {
+      public order(Notification n){
           this.n=n;
       }
         void OrderPlace(){
-          System.out.println("Order is been placed");
           n.SendNotification();
+          System.out.println("Order is been placed");
+
         }
     }
 
